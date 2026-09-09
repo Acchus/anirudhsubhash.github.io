@@ -1,5 +1,6 @@
 # Anirudh Subhash — Finance Portfolio
 
-Static GitHub Pages portfolio for finance, credit and structured finance work.
+Warm editorial finance portfolio for GitHub Pages.
 
-Warm editorial palette: parchment background, ivory surfaces, espresso text and walnut accent.
+Palette:
+#8B4513 · #A0522D · #D2B48C · #C19A6B · #CD853F
