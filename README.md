@@ -1,6 +1,16 @@
-# Anirudh Subhash — Finance Portfolio
-
-Warm editorial finance portfolio for GitHub Pages.
-
-Palette:
-#8B4513 · #A0522D · #D2B48C · #C19A6B · #CD853F
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Finance Projects — Anirudh Subhash</title><link rel="stylesheet" href="style.css"></head>
+<body><header class="site-header"><div class="container header-inner">
+<a class="brand" href="index.html">ANIRUDH SUBHASH</a><nav class="nav"><a class="" href="experience.html">Experience</a><a class="active" href="finance-projects.html">Finance Projects</a><a class="" href="research.html">Research</a><a class="" href="credentials.html">Credentials</a><a class="" href="about.html">About</a><a class="" href="resume.html">Resume</a></nav>
+</div></header><main><section class="page-hero"><div class="container"><p class="eyebrow">Analytical Work</p><h1>Finance Projects</h1><p>Models and case studies designed to demonstrate practical finance, credit and structured finance capability.</p></div></section><section class="content"><div class="container finance-grid">
+<div class="project"><div><span class="meta">Financial Modelling</span><h2>Three-Statement Model</h2></div><div><p class="placeholder">Project to be added.</p></div></div>
+<div class="project"><div><span class="meta">Valuation</span><h2>DCF + Trading Comps</h2></div><div><p class="placeholder">Project to be added.</p></div></div>
+<div class="project"><div><span class="meta">Leveraged Finance</span><h2>LBO Model</h2></div><div><p class="placeholder">Project to be added.</p></div></div>
+<div class="project"><div><span class="meta">Credit</span><h2>Corporate Credit Analysis</h2></div><div><p class="placeholder">Project to be added.</p></div></div>
+<div class="project"><div><span class="meta">Private Credit</span><h2>Private Credit Investment Memo</h2></div><div><p class="placeholder">Project to be added.</p></div></div>
+<div class="project"><div><span class="meta">Structured Finance</span><h2>ABS / Structured Finance Model</h2></div><div><p class="placeholder">Project to be added.</p></div></div>
+<div class="project"><div><span class="meta">Debt</span><h2>Debt / Financing Case Study</h2></div><div><p class="placeholder">Project to be added.</p></div></div>
+</div></section></main>
+<footer class="footer"><div class="container footer-inner"><span>Anirudh Subhash</span><span>Mumbai, India → International Finance</span></div></footer>
+</body></html>
