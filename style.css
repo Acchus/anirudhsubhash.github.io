@@ -161,3 +161,113 @@ a{color:inherit;text-decoration:none}
     margin-right:18px;
   }
 }
+
+
+/* Experience page: resume-inspired professional layout */
+.experience-hero{padding-bottom:42px}
+.experience-content{padding-top:42px}
+.experience-company{max-width:1080px}
+.company-heading{padding-bottom:18px}
+.company-heading h2{font-family:Georgia,"Times New Roman",serif;font-size:31px;font-weight:600;letter-spacing:-.025em;margin:0}
+.company-location{font-family:Georgia,"Times New Roman",serif;color:var(--muted);font-size:15px;margin:4px 0 0}
+.experience-role{border-top:1px solid var(--line);padding:24px 0 30px}
+.role-heading{display:flex;justify-content:space-between;align-items:baseline;gap:28px}
+.role-heading h3{font-family:Georgia,"Times New Roman",serif;font-size:20px;font-weight:600;margin:0;line-height:1.25}
+.role-heading h3 span{font-weight:400;font-style:italic}
+.role-dates{font-family:Georgia,"Times New Roman",serif;font-size:14px;color:var(--muted);white-space:nowrap;margin:0}
+.experience-bullets{margin:14px 0 0;padding-left:23px;max-width:1030px}
+.experience-bullets li{font-family:Arial,Helvetica,sans-serif;color:#51463e;font-size:15px;line-height:1.52;margin:8px 0;padding-left:4px}
+.experience-bullets strong{color:var(--espresso);font-weight:700}
+.experience-bullets em{font-family:Georgia,"Times New Roman",serif}
+@media(max-width:700px){
+  .role-heading{display:block}
+  .role-dates{margin-top:7px}
+  .company-heading h2{font-size:28px}
+  .experience-bullets li{font-size:14.5px}
+}
+
+/* Credentials page */
+.credentials-content{padding-top:42px}
+.credential-section{
+  border-top:1px solid var(--line);
+  padding:28px 0 34px;
+}
+.credential-section:first-child{padding-top:0;border-top:0}
+.credential-label{
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.17em;
+  color:var(--sienna);
+  font-weight:700;
+  margin-bottom:20px;
+}
+.credential-item{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 180px;
+  column-gap:40px;
+  row-gap:12px;
+  padding:0 0 4px;
+}
+.credential-main h2{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:28px;
+  line-height:1.15;
+  font-weight:600;
+  letter-spacing:-.02em;
+  margin:0 0 5px;
+}
+.credential-title{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:17px;
+  font-style:italic;
+  color:#51463e;
+  margin:0;
+}
+.credential-description{
+  max-width:760px;
+  color:var(--muted);
+  font-size:15px;
+  line-height:1.55;
+  margin:15px 0 0;
+}
+.credential-meta{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:4px;
+  font-family:Georgia,"Times New Roman",serif;
+  color:var(--muted);
+  font-size:14px;
+  text-align:right;
+}
+.credential-result{
+  grid-column:1 / -1;
+  display:flex;
+  align-items:baseline;
+  gap:14px;
+  margin-top:8px;
+}
+.result-label{
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  color:var(--sienna);
+  font-weight:700;
+}
+.credential-result strong{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:25px;
+  font-weight:600;
+}
+.credential-upcoming{opacity:.78}
+@media(max-width:700px){
+  .credential-item{grid-template-columns:1fr}
+  .credential-meta{
+    align-items:flex-start;
+    text-align:left;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:5px 18px;
+  }
+  .credential-main h2{font-size:25px}
+}
